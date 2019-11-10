@@ -177,7 +177,8 @@ if ($type == 1) {
 		} else {
 			echo "Ready to Claim... \n";
 			echo "\n";
-			claim($verif, $code);
+			$newcode = boba($code,$verif);
+			claim($verif, $newcode);
 			echo "\n";
 			echo "Your Voucher:\n";
 			profile($verif);
@@ -202,7 +203,8 @@ if ($type == 1) {
 		} else {
 			echo "Ready to Claim... \n";
 			echo "\n";
-			claim($verif, $code);
+			$newcode = boba($code,$verif);
+			claim($verif, $newcode);
 			echo "\n";
 		}
 	}
