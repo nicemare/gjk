@@ -1,2 +1,2 @@
 # GJK
-Gojek Tools
+git clone https://github.com/aarzaary/gjk.git
